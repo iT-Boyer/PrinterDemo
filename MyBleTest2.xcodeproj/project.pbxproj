@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004545E92086E92700B8B453 /* cainiao_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 004545E82086E92700B8B453 /* cainiao_logo.png */; };
+		004545EB2086EDD000B8B453 /* bbb.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 004545EA2086EDD000B8B453 /* bbb.bmp */; };
+		004545ED2086FAA100B8B453 /* 11111.png in Resources */ = {isa = PBXBuildFile; fileRef = 004545EC2086FAA100B8B453 /* 11111.png */; };
+		00AA7BB72089C45D0057E4EE /* zicox_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AA7BB62089C45D0057E4EE /* zicox_ios_sdk.framework */; };
 		088DA58A19986AD300F61955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088DA58919986AD300F61955 /* Foundation.framework */; };
 		088DA58C19986AD300F61955 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088DA58B19986AD300F61955 /* CoreGraphics.framework */; };
 		088DA58E19986AD300F61955 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088DA58D19986AD300F61955 /* UIKit.framework */; };
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004545E82086E92700B8B453 /* cainiao_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cainiao_logo.png; sourceTree = "<group>"; };
+		004545EA2086EDD000B8B453 /* bbb.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = bbb.bmp; sourceTree = "<group>"; };
+		004545EC2086FAA100B8B453 /* 11111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11111.png; sourceTree = "<group>"; };
+		008D0800206B2BB300630030 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		008D0802206B2BC400630030 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		00AA7BB62089C45D0057E4EE /* zicox_ios_sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = zicox_ios_sdk.framework; sourceTree = "<group>"; };
 		088DA58619986AD300F61955 /* MyBleTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBleTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088DA58919986AD300F61955 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		088DA58B19986AD300F61955 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AA7BB72089C45D0057E4EE /* zicox_ios_sdk.framework in Frameworks */,
 				088DA58C19986AD300F61955 /* CoreGraphics.framework in Frameworks */,
 				088DA58E19986AD300F61955 /* UIKit.framework in Frameworks */,
 				088DA58A19986AD300F61955 /* Foundation.framework in Frameworks */,
@@ -82,6 +93,9 @@
 		088DA57D19986AD300F61955 = {
 			isa = PBXGroup;
 			children = (
+				004545EC2086FAA100B8B453 /* 11111.png */,
+				004545EA2086EDD000B8B453 /* bbb.bmp */,
+				004545E82086E92700B8B453 /* cainiao_logo.png */,
 				088DA58F19986AD300F61955 /* MyBleTest2 */,
 				088DA5AE19986AD300F61955 /* MyBleTest2Tests */,
 				088DA58819986AD300F61955 /* Frameworks */,
@@ -101,6 +115,9 @@
 		088DA58819986AD300F61955 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00AA7BB62089C45D0057E4EE /* zicox_ios_sdk.framework */,
+				008D0802206B2BC400630030 /* libbz2.1.0.tbd */,
+				008D0800206B2BB300630030 /* libbz2.tbd */,
 				088DA58919986AD300F61955 /* Foundation.framework */,
 				088DA58B19986AD300F61955 /* CoreGraphics.framework */,
 				088DA58D19986AD300F61955 /* UIKit.framework */,
@@ -112,6 +129,7 @@
 		088DA58F19986AD300F61955 /* MyBleTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				08EEAB61199D9847006F2BBA /* iPad */,
 				088DA59819986AD300F61955 /* WWDAppDelegate.h */,
 				088DA59919986AD300F61955 /* WWDAppDelegate.m */,
 				088DA59B19986AD300F61955 /* Main.storyboard */,
@@ -150,6 +168,13 @@
 				088DA5B119986AD300F61955 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08EEAB61199D9847006F2BBA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +225,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = mycj.wwd;
 				TargetAttributes = {
+					088DA58519986AD300F61955 = {
+						DevelopmentTeam = C556M74S8M;
+					};
 					088DA5A619986AD300F61955 = {
 						TestTargetID = 088DA58519986AD300F61955;
 					};
@@ -210,6 +238,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -230,8 +259,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				088DA5A219986AD300F61955 /* Images.xcassets in Resources */,
+				004545ED2086FAA100B8B453 /* 11111.png in Resources */,
 				088DA59419986AD300F61955 /* InfoPlist.strings in Resources */,
 				088DA59D19986AD300F61955 /* Main.storyboard in Resources */,
+				004545E92086E92700B8B453 /* cainiao_logo.png in Resources */,
+				004545EB2086EDD000B8B453 /* bbb.bmp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -366,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -377,10 +409,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C556M74S8M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyBleTest2/MyBleTest2-Prefix.pch";
 				INFOPLIST_FILE = "MyBleTest2/MyBleTest2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyBleTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +433,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyBleTest2/MyBleTest2-Prefix.pch";
 				INFOPLIST_FILE = "MyBleTest2/MyBleTest2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyBleTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +513,7 @@
 				088DA5BA19986AD300F61955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		088DA5BB19986AD300F61955 /* Build configuration list for PBXNativeTarget "MyBleTest2Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +522,7 @@
 				088DA5BD19986AD300F61955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

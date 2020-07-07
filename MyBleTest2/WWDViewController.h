@@ -7,7 +7,28 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 
-@interface WWDViewController : UIViewController
+#import <zicox_ios_sdk/Bluetooth.h>
+
+@interface WWDViewController : UIViewController<CBCentralManagerDelegate, CBPeripheralDelegate, UITableViewDataSource, UITableViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+@property (weak, nonatomic) IBOutlet UIButton *write;
+
+
+
+- (void)scanClick;
+- (void)connectClick;
+- (void)hideKeyboard;
+
+-(void)wrapPrintData;
+-(void) sendPrintData;
+- (IBAction)connDevice:(id)sender;
+
+
+
+
 
 @end
