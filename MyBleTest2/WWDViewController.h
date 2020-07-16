@@ -10,6 +10,7 @@
 #import <CoreBluetooth/CoreBluetooth.h>
 
 #import <zicox_ios_sdk/Bluetooth.h>
+#import "JHBluetooth.h"
 
 @interface WWDViewController : UIViewController<CBCentralManagerDelegate, CBPeripheralDelegate, UITableViewDataSource, UITableViewDelegate>
 

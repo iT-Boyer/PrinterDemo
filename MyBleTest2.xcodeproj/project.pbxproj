@@ -25,6 +25,7 @@
 		088DA5AB19986AD300F61955 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088DA58D19986AD300F61955 /* UIKit.framework */; };
 		088DA5B319986AD300F61955 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 088DA5B119986AD300F61955 /* InfoPlist.strings */; };
 		088DA5B519986AD300F61955 /* MyBleTest2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 088DA5B419986AD300F61955 /* MyBleTest2Tests.m */; };
+		F904618124BFEB0F0005A5F2 /* JHBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = F904618024BFEB0F0005A5F2 /* JHBluetooth.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		088DA5B019986AD300F61955 /* MyBleTest2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyBleTest2Tests-Info.plist"; sourceTree = "<group>"; };
 		088DA5B219986AD300F61955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		088DA5B419986AD300F61955 /* MyBleTest2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBleTest2Tests.m; sourceTree = "<group>"; };
+		F904617F24BFEB0F0005A5F2 /* JHBluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHBluetooth.h; sourceTree = "<group>"; };
+		F904618024BFEB0F0005A5F2 /* JHBluetooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHBluetooth.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				088DA59F19986AD300F61955 /* WWDViewController.m */,
 				088DA5A119986AD300F61955 /* Images.xcassets */,
 				088DA59019986AD300F61955 /* Supporting Files */,
+				F904617F24BFEB0F0005A5F2 /* JHBluetooth.h */,
+				F904618024BFEB0F0005A5F2 /* JHBluetooth.m */,
 			);
 			path = MyBleTest2;
 			sourceTree = "<group>";
@@ -226,7 +231,7 @@
 				ORGANIZATIONNAME = mycj.wwd;
 				TargetAttributes = {
 					088DA58519986AD300F61955 = {
-						DevelopmentTeam = C556M74S8M;
+						DevelopmentTeam = ZQJGJL288B;
 					};
 					088DA5A619986AD300F61955 = {
 						TestTargetID = 088DA58519986AD300F61955;
@@ -282,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F904618124BFEB0F0005A5F2 /* JHBluetooth.m in Sources */,
 				088DA59619986AD300F61955 /* main.m in Sources */,
 				088DA5A019986AD300F61955 /* WWDViewController.m in Sources */,
 				088DA59A19986AD300F61955 /* WWDAppDelegate.m in Sources */,
@@ -411,7 +417,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = C556M74S8M;
+				DEVELOPMENT_TEAM = ZQJGJL288B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -420,7 +426,7 @@
 				GCC_PREFIX_HEADER = "MyBleTest2/MyBleTest2-Prefix.pch";
 				INFOPLIST_FILE = "MyBleTest2/MyBleTest2-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MyBleTest2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyBleTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;

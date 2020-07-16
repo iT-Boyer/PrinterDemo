@@ -12,7 +12,7 @@
 
 @interface WWDViewController ()
 
-@property (strong, nonatomic) Bluetooth* bluetooth;
+@property (strong, nonatomic) JHBluetooth* bluetooth;
 @property (strong, nonatomic) CBPeripheral* peripheral;
 @property (strong, nonatomic) NSMutableArray* listDevices;
 @property (strong, nonatomic) NSMutableString* listDeviceInfo;
@@ -30,7 +30,7 @@
     self.tableView.delegate = self;
 
 
-    self.bluetooth = [[Bluetooth alloc]init];
+    self.bluetooth = [[JHBluetooth alloc]init];
 }
 
 - (IBAction)connDevice:(id)sender{
